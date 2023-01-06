@@ -1,0 +1,250 @@
+.btn-info,
+.btn-info:hover {
+background-color: #005481 !important;
+border-color: #005481 !important;
+}
+
+.container-box {
+display: inline-block;
+padding: 0px;
+/* background: rgba(255, 255, 255, .8); */
+/* border: 1px solid #fff; */
+position: fixed;
+top: 71%;
+left: 0;
+z-index: 99;
+
+}
+
+.visit {
+display: inline-block;
+padding: 0px;
+/* background: rgba(255, 255, 255, .8);
+border: 1px solid #fff; */
+position: fixed;
+top: 45%;
+left: 0;
+z-index: 99;
+
+}
+
+.container-box .btn-lg {
+padding: 5px 14px;
+}
+
+.modal-content {
+background: rgba(255, 255, 255, .7);
+}
+
+.modal-header{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.button-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rotated {
+-moz-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+-o-transform: rotate(-90deg);
+-webkit-transform: rotate(-90deg);
+transform-origin: top left;
+}
+
+.color-fill .modal-title {
+color: rgb(0, 0, 0);
+}
+
+@media (max-width:767px) {
+
+
+.container-box .btn-lg {
+padding: 1px 14px;
+}
+
+.visit {
+top: 31%;
+}
+
+}
+
+
+.project-table table>thead>tr>th,
+table>tbody>tr>th,
+table>tfoot>tr>th,
+table>thead>tr>td,
+table>tbody>tr>td,
+table>tfoot>tr>td {
+border: 1px solid #e9e9e9;
+line-height: 1.4;
+padding: 4px;
+vertical-align: middle;
+text-align: center;
+}
+
+.project-table>tr>span {
+color: #737373;
+font-size: 18px;
+}
+
+
+#social p,
+.twitter {
+font: normal normal 10px Arial;
+text-align: center;
+color: #998578;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+#social .twitter {
+color: #000000;
+text-decoration: none;
+display: block;
+padding: 14px;
+-webkit-transition: all .25s ease;
+-moz-transition: all .25s ease;
+-ms-transition: all .25s ease;
+-o-transition: all .25s ease;
+transition: all .25s ease;
+}
+
+#social .twitter:hover {
+color: #FF7D6D;
+text-decoration: none;
+}
+
+.twit {
+background: #005481 !important;
+}
+
+#social span {
+font-style: italic;
+display: block;
+}
+
+#social img {
+max-width: 100%;
+}
+
+/* Floating Social Media Bar Style Starts Here */
+
+#social .fl-fl {
+background: #005481;
+text-transform: uppercase;
+letter-spacing: 3px;
+padding: 4px;
+width: 190px;
+position: fixed;
+right: -145px;
+z-index: 1000;
+font: normal normal 10px Arial;
+-webkit-transition: all .25s ease;
+-moz-transition: all .25s ease;
+-ms-transition: all .25s ease;
+-o-transition: all .25s ease;
+transition: all .25s ease;
+}
+
+#social .fl-tw {
+background: #23a1f4;
+text-transform: uppercase;
+letter-spacing: 3px;
+padding: 4px;
+width: 190px;
+position: fixed;
+right: -160px;
+z-index: 1000;
+font: normal normal 10px Arial;
+-webkit-transition: all .25s ease;
+-moz-transition: all .25s ease;
+-ms-transition: all .25s ease;
+-o-transition: all .25s ease;
+transition: all .25s ease;
+}
+
+
+
+#social .fa {
+font-size: 20px;
+color: #fff;
+padding: 10px 0;
+width: 40px;
+margin-left: 8px;
+}
+
+#social .fl-fl:hover {
+right: -52px;
+}
+
+#social .fl-fl a {
+color: #fff !important;
+text-decoration: none;
+text-align: center;
+line-height: 43px !important;
+vertical-align: top !important;
+}
+
+.width100 {
+width: 100%;
+font-size: 13px;
+padding: 4px 2px;
+}
+
+/*#social .float-fb {*/
+/* top: 160px;*/
+/*}*/
+
+@media (min-width: 577px) {
+#social .float-fb {
+top: 160px;
+}
+
+#social .float-tw {
+top: 215px;
+}
+}
+
+@media (max-width:576px) {
+
+#social .float-fb {
+top: none;
+bottom: 0px !important;
+left: 0px !important;
+width: 50% !important;
+}
+
+#social .float-tw {
+top: none;
+bottom: 0px !important;
+right: 0px !important;
+width: 50% !important;
+}
+}
+
+@media (min-width: 768px) {
+.fill {
+float: right;
+}
+}
+
+@media (max-width: 767px) {
+#form .col-sm-6 {
+text-align: center;
+padding: 3px;
+}
+}
+
+
+/* thankyou page  */
+
+section#subscribe-section3 {
+    padding: 92px;
+}
+#border-button{
+    border: 2px white solid;
+    border-radius: 20px;
+   }
